@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RAG artifacts
+ckpts/
+*.npz
+*.joblib
+*.json
